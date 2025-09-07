@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d6efd"/>
+      <stop offset="1" stop-color="#6ea8fe"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#g)"/>
+  <circle cx="400" cy="220" r="120" fill="white" opacity="0.9"/>
+  <rect x="180" y="380" width="440" height="160" rx="24" fill="white" opacity="0.9"/>
+  <text x="400" y="220" text-anchor="middle" dominant-baseline="central" font-size="28" font-family="Inter, Arial" fill="#0d6efd">Your Photo</text>
+  <text x="400" y="460" text-anchor="middle" font-size="32" font-family="Inter, Arial" fill="#0d6efd">Your Name</text>
+  <text x="400" y="500" text-anchor="middle" font-size="18" font-family="Inter, Arial" fill="#0d6efd">Front‑End Developer</text>
+</svg>

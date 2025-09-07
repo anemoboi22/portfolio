@@ -1,0 +1,27 @@
+:root{
+  --radius: 1.25rem;
+}
+*{ box-sizing: border-box; }
+html,body{ font-family: 'Inter', system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; }
+.backdrop-blur{ backdrop-filter: saturate(180%) blur(8px); }
+.dot-sep{ font-size: .4rem; vertical-align: middle; }
+.hero-card{ border-radius: var(--radius); }
+.card, .rounded-4{ border-radius: var(--radius) !important; }
+
+.card-skill i{ opacity:.9; }
+.card-skill{ transition: transform .15s ease, box-shadow .15s ease; }
+.card-skill:hover{ transform: translateY(-2px); box-shadow: 0 .5rem 1.25rem rgba(0,0,0,.08); }
+
+.project-card img{ aspect-ratio: 16/9; object-fit: cover; }
+.project-card .card-body{ min-height: 8rem; }
+
+/* Smooth anchor scrolling */
+html{ scroll-behavior: smooth; }
+
+/* Dark mode tweaks (uses Bootstrap data-bs-theme) */
+:root[data-bs-theme="dark"] .bg-body-secondary{ background-color: rgba(255,255,255,.05) !important; }
+:root[data-bs-theme="dark"] .border-top{ border-top-color: rgba(255,255,255,.1) !important; }
+:root[data-bs-theme="dark"] .border{ border-color: rgba(255,255,255,.1) !important; }
+
+/* Utilities */
+.py-lg-6{ padding-top: 6rem !important; padding-bottom: 6rem !important; }
